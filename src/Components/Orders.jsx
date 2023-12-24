@@ -14,7 +14,7 @@ const Orders = () => {
        </Box>
        </Box>
       </Box>
-
+      <Box sx={{display:"grid",rowGap:"0.75rem",borderRadius:"0.5rem",padding:"0.75rem",backgroundColor:"#FFF"}}>
       <Box>
 <Box sx={{display:"grid",gridTemplateColumns:"27.5% 11.5%",justifyContent:"space-between",alignItems:"center"}}>
 <Box sx={{display:"flex",alignItems:"center",backgroundColor:"#F2F2F2",padding:"0.62rem 1rem",gap:"1rem",border:"1px solid #D9D9D9",borderRadius:"0.375rem"}}>
@@ -37,11 +37,13 @@ const Orders = () => {
         <Button variant='outlined' size='medium' sx={{padding:"0.38rem 0.75rem",border:"1px solid #D9D9D9",color:"#4D4D4D",fontFamily: "Inter"}}>Sort <img style={{width:"1rem",height:"1rem"}}  src="./Sort.png" alt="error" /></Button>
         <Button variant='outlined'  size='small' sx={{minWidth:"40px",border:"1px solid #D9D9D9",padding:"0.5rem"}}><img style={{width:"1.25rem",height:"1.25rem"}} src="./down.png" alt="error" /></Button>
     </Box>
+    
 </Box>
       </Box>
 
       <Box>
       <BasicTable/>
+      </Box>
       </Box>
     </Box>
   )

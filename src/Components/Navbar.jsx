@@ -156,7 +156,7 @@ export default function Navbar() {
   );
 
   return (
-   <Box sx={{display:"grid",gridTemplateColumns:"repeat(3,1fr)",padding:"0.75rem 2rem 0.75rem 2rem"}}>  
+   <Box sx={{backgroundColor:"#FFF",display:"grid",gridTemplateColumns:"repeat(3,1fr)",padding:"0.75rem 2rem 0.75rem 2rem"}}>  
 <Box sx={{display:"flex",gap:"1rem",alignItems:"center"}}>
 <Box>
     <Typography sx={{fontSize:"1.25rem",fontWeight:"500",lineHeight:"1.75rem",fontFamily: "Galano Grotesque"}}>Payouts</Typography>
