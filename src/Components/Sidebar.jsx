@@ -18,8 +18,8 @@ const Sidebar = () => {
         <Box sx={{border:"0px solid green",display:"grid",gridTemplateColumns:"25% 50% 15%",alignItems:"center",columnGap:"0.78rem"}}>
 <Box><img style={{width:"2.475rem" ,height:"2.475rem"}} src="./Image.png" alt="error" /></Box>
 <Box>
-<Typography sx={{fontSize:"0.9375rem",fontWeight:"500",lineHeight:"1.375rem",color:"white"}}>Nishyan</Typography>
-        <Typography sx={{fontSize:"0.81rem",fontWeight:"400",lineHeight:"1rem",textDecoration:"underline",color:"white"}}>Visit Store</Typography>
+<Typography sx={{fontSize:"0.9375rem",fontWeight:"500",lineHeight:"1.375rem",color:"white",fontFamily:"Inter"}}>Nishyan</Typography>
+        <Typography sx={{fontSize:"0.81rem",fontWeight:"400",lineHeight:"1rem",textDecoration:"underline",color:"white",fontFamily: "Galano Grotesque"}}>Visit Store</Typography>
 </Box>
 <Box >
     <img src="./cd.png" alt="error" />
@@ -31,7 +31,7 @@ const Sidebar = () => {
 {datarr.map((el,index)=>(
     <Box key={index} sx={{backgroundColor:`${el.name=="Payouts"?"#353C53":null}`,borderRadius:"0.25rem",padding:"0.5rem 1rem",display:"flex",justifyContent:"flex-start",alignItems:"center",gap:"0.75rem"}}>
     <img style={{width:"1.25rem",height:"1.25rem"}} src={el.img} alt="error" />
-    <Button sx={{fontSize:"0.875rem",fontWeight:"500",lineHeight:"1.25rem",color:"white"}}>{el.name}</Button>
+    <Button sx={{fontSize:"0.875rem",fontWeight:"500",lineHeight:"1.25rem",color:"white",fontFamily: "Inter"}}>{el.name}</Button>
     </Box>
 ))}
 
@@ -41,8 +41,8 @@ const Sidebar = () => {
         <Box sx={{backgroundColor:"#353C53",borderRadius:"0.25rem",display:"flex",alignItems:"center",padding:"0.38rem 0.75rem",gap:"0.75rem"}}>
        <Box><img src="./wallet.png" alt="error" /></Box>
        <Box>
-        <Typography sx={{fontSize:"0.81rem",fontWeight:"400",lineHeight:"1rem",color:"white"}}>Available Credits</Typography>
-        <Typography sx={{fontSize:"1rem",fontWeight:"500",lineHeight:"1.5rem",color:"white"}}>222.10</Typography>
+        <Typography sx={{fontSize:"0.81rem",fontWeight:"400",lineHeight:"1rem",color:"white",fontFamily: "Inter"}}>Available Credits</Typography>
+        <Typography sx={{fontSize:"1rem",fontWeight:"500",lineHeight:"1.5rem",color:"white",fontFamily: "Inter"}}>222.10</Typography>
        </Box>
         </Box>
     </Box>

@@ -7,7 +7,7 @@ const Info = () => {
   
    <Box sx={{display:"flex",justifyContent:"space-between"}}>
     <Box>
-        <Typography sx={{fontSize:"1.25rem",fontWeight:"500",lineHeight:"1.75rem"}}>Overview</Typography>
+        <Typography sx={{fontSize:"1.25rem",fontWeight:"500",lineHeight:"1.75rem",fontFamily: "Galano Grotesque"}}>Overview</Typography>
     </Box>
    <Box sx={{display:"flex",alignItems:"center",gap:"0.38rem",backgroundColor:"white",borderRadius:"0.25rem",border:"1px solid #D9D9D9",justifyContent:"flex-end"}}>
             <Typography sx={{fontSize:"1rem",fontWeight:"400",lineHeight:"1.5rem",padding:"0.38rem 0rem 0.38rem 0.88rem"}}>This Month</Typography>
@@ -19,20 +19,20 @@ const Info = () => {
 <Box sx={{borderRadius:"0.5rem",backgroundColor:"#146EB4"}}>
     <Box sx={{padding:"1.25rem 1.25rem 0rem 1.25rem",display:"grid",rowGap:"1rem"}}>
         <Box sx={{display:"flex",alignItems:"center",justifyContent:"flex-start",gap:"0.5rem"}}>
-<Box><Typography sx={{fontSize:"1rem",fontWeight:"400",lineHeight:"1.5rem",color:"white"}}>Next Payout</Typography></Box>
+<Box><Typography sx={{fontSize:"1rem",fontWeight:"400",lineHeight:"1.5rem",color:"white",fontFamily: "Inter"}}>Next Payout</Typography></Box>
 <img style={{widht:"1rem",height:"1rem"}} src="./Help.png" alt="error" />
         </Box>
         <Box sx={{display:"flex",alignItems:"center",justifyContent:"space-between",alignSelf:"stretch",paddingBottom:"1.25rem"}}>
-        <Box><Typography sx={{fontSize:"2rem",fontWeight:"500",lineHeight:"2.375rem",color:"white"}}>₹2,312.23</Typography></Box>
+        <Box><Typography sx={{fontSize:"2rem",fontWeight:"500",lineHeight:"2.375rem",color:"white",fontFamily: "Galano Grotesque"}}>₹2,312.23</Typography></Box>
         <Box sx={{display:"flex",justifyContent:"space-between",alignItems:"center"}}>
-            <Typography sx={{fontSize:"1rem",fontWeight:"500",lineHeight:"1.5rem",textDecoration:"underline",color:"white"}}>23 Orders</Typography>
+            <Typography sx={{fontSize:"1rem",fontWeight:"500",lineHeight:"1.5rem",textDecoration:"underline",color:"white",fontFamily: "Galano Grotesque"}}>23 Orders</Typography>
            <img src="./Chevw.png" alt="error" />
         </Box>
         </Box>
     </Box>
     <Box sx={{display:"flex",justifyContent:"space-between",alignItems:"center",padding:"0.5rem 1.5rem",borderRadius:"0.5rem",backgroundColor:"#0E4F82"}}>
-    <Box><Typography sx={{fontSize:"0.875rem",fontWeight:"400",lineHeight:"1.25rem",color:"white"}}>Next Payout Date</Typography></Box>
-    <Box><Typography sx={{fontSize:"0.875rem",fontWeight:"400",lineHeight:"1.25rem",color:"white"}}>Today , 04:00 P.M.</Typography></Box>
+    <Box><Typography sx={{fontSize:"0.875rem",fontWeight:"400",lineHeight:"1.25rem",color:"white",fontFamily: "Galano Grotesque"}}>Next Payout Date</Typography></Box>
+    <Box><Typography sx={{fontSize:"0.875rem",fontWeight:"400",lineHeight:"1.25rem",color:"white",fontFamily: "Galano Grotesque"}}>Today , 04:00 P.M.</Typography></Box>
     </Box>
 </Box>
 
@@ -41,13 +41,13 @@ const Info = () => {
 
 <Box sx={{display:"grid",rowGap:"1rem"}}>
 <Box sx={{display:"flex",alignItems:"center",justifyContent:"flex-start",gap:"0.5rem"}}>
-<Box><Typography sx={{fontSize:"1rem",fontWeight:"400",lineHeight:"1.5rem"}}>Amount Pending</Typography></Box>
+<Box><Typography sx={{fontSize:"1rem",fontWeight:"400",lineHeight:"1.5rem",fontFamily: "Inter"}}>Amount Pending</Typography></Box>
 <img style={{widht:"1rem",height:"1rem"}} src="./Helpb.png" alt="error" />
         </Box>
         <Box sx={{display:"flex",alignItems:"center",justifyContent:"space-between",alignSelf:"stretch"}}>
-        <Box><Typography sx={{fontSize:"2rem",fontWeight:"500",lineHeight:"2.375rem"}}>₹2,312.23</Typography></Box>
+        <Box><Typography sx={{fontSize:"2rem",fontWeight:"500",lineHeight:"2.375rem",fontFamily: "Galano Grotesque"}}>₹92,312.23</Typography></Box>
         <Box sx={{display:"flex",justifyContent:"space-between",alignItems:"center"}}>
-            <Typography sx={{fontSize:"1rem",fontWeight:"500",lineHeight:"1.5rem",textDecoration:"underline",color:"#146EB4"}}>23 Orders</Typography>
+            <Typography sx={{fontSize:"1rem",fontWeight:"500",lineHeight:"1.5rem",textDecoration:"underline",color:"#146EB4",fontFamily: "Galano Grotesque"}}>23 Orders</Typography>
            <img src="./Chev.png" alt="error" />
         </Box>
         </Box>
@@ -64,11 +64,11 @@ const Info = () => {
 
 <Box sx={{display:"grid",rowGap:"1rem"}}>
 <Box sx={{display:"flex",alignItems:"center",justifyContent:"flex-start",gap:"0.5rem"}}>
-<Box><Typography sx={{fontSize:"1rem",fontWeight:"400",lineHeight:"1.5rem"}}>Amount Processed</Typography></Box>
+<Box><Typography sx={{fontSize:"1rem",fontWeight:"400",lineHeight:"1.5rem",fontFamily: "Inter"}}>Amount Processed</Typography></Box>
 <img style={{widht:"1rem",height:"1rem"}} src="./Helpb.png" alt="error" />
         </Box>
         <Box sx={{display:"flex",alignItems:"center",justifyContent:"space-between",alignSelf:"stretch"}}>
-        <Box><Typography sx={{fontSize:"2rem",fontWeight:"500",lineHeight:"2.375rem"}}>₹23,92,312.19</Typography></Box>
+        <Box><Typography sx={{fontSize:"2rem",fontWeight:"500",lineHeight:"2.375rem",fontFamily: "Galano Grotesque"}}>₹23,92,312.19</Typography></Box>
        
         </Box>
 </Box>
