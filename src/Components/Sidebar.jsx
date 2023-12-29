@@ -12,7 +12,7 @@ const datarr=[
 
 const Sidebar = () => {
   return (
-    <Box sx={{backgroundColor:"#1E2640",display:"grid",gridTemplateRows:"90% 7%",rowGap:"1rem",padding:"1rem 0.625rem",height:"100%"}}>
+    <Box sx={{backgroundColor:"#1E2640",display:"grid",gridTemplateRows:"90% 7%",rowGap:"1rem",padding:"1rem 0.625rem 1rem 0.625rem",height:"100%"}}>
         <Box sx={{display:"grid",rowGap:"1.5rem",maxHeight:"0%"}}>
        
         <Box sx={{border:"0px solid green",display:"grid",gridTemplateColumns:"25% 50% 15%",alignItems:"center",columnGap:"0.78rem"}}>

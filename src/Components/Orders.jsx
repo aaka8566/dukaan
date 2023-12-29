@@ -17,7 +17,7 @@ const Orders = () => {
       <Box sx={{display:"grid",rowGap:"0.75rem",borderRadius:"0.5rem",padding:"0.75rem",backgroundColor:"#FFF"}}>
       <Box>
 <Box sx={{display:"grid",gridTemplateColumns:"27.5% 11.5%",justifyContent:"space-between",alignItems:"center"}}>
-<Box sx={{display:"flex",alignItems:"center",backgroundColor:"#F2F2F2",padding:"0.62rem 1rem",gap:"1rem",border:"1px solid #D9D9D9",borderRadius:"0.375rem"}}>
+<Box sx={{display:"flex",alignItems:"center",backgroundColor:"#F2F2F2",margin:"0.62rem 0rem",padding:"0rem 1rem",gap:"1rem",border:"1px solid #D9D9D9",borderRadius:"0.375rem"}}>
 <img style={{width:"0.875rem",height:"0.875rem"}} src="./search.png" alt="error" />
 <TextField
         hiddenLabel
@@ -29,7 +29,7 @@ const Orders = () => {
         "& .MuiInputLabel-root": {color: 'green'},//styles the label
         "& .MuiOutlinedInput-root": {
           "& > fieldset": { border: "none" },
-        },
+        },margin:"0px -22px"
       }}
       />
 </Box>

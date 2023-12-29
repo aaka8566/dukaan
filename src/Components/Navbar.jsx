@@ -161,32 +161,32 @@ export default function Navbar() {
 <Box>
     <Typography sx={{fontSize:"1.25rem",fontWeight:"500",lineHeight:"1.75rem",fontFamily: "Galano Grotesque"}}>Payouts</Typography>
 </Box>
-<Box sx={{display:"flex",alignItems:"center"}}>
+<Box sx={{display:"flex",alignItems:"center",gap:"0.38rem"}}>
     <img src="./Helpb.png" alt="error" />
     <Typography sx={{fontSize:"0.75rem",fontWeight:"400",lineHeight:"1rem",fontFamily: "Galano Grotesque"}}>How it works</Typography>
 </Box>
 <Box></Box>
 </Box>
-<Box sx={{display:"flex",alignItems:"center",backgroundColor:"#F2F2F2",padding:"0.56rem 1rem",gap:"1rem",borderRadius:"0.375rem"}}>
+<Box sx={{display:"flex",alignItems:"center",backgroundColor:"#F2F2F2",margin:"0.56rem 0rem",padding:"0rem 1rem",gap:"0rem",borderRadius:"0.375rem",maxHeight:"2.5rem"}}>
 <img style={{width:"1rem",height:"1rem"}} src="./search.png" alt="error" />
 <TextField
         hiddenLabel
         id="filled-hidden-label-normal"
        placeholder='Search , features , tutorials etc .'
-     size="small"
+     size='small'
      disableunderline={true}
      sx={{
         "& .MuiInputLabel-root": {color: 'green'},//styles the label
         "& .MuiOutlinedInput-root": {
           "& > fieldset": { border: "none" },
-        },
+        },border:"0px solid green",margin:"-10px"
       }}
       />
 </Box>
 <Box sx={{display:"flex",alignItems:"center",justifyContent:"flex-end",padding:"0.56rem 1rem",gap:"1rem",borderRadius:"0.375rem"}}>
 <Box sx={{display:"flex",alignItems:"center",gap:"0.75rem"}}>
-    <img src="./Group.png" alt="error" />
-    <img src="./Menu.png" alt="error" />
+    <img style={{width:"2.5rem",height:"2.5rem"}} src="./Group.png" alt="error" />
+    <img style={{width:"2.5rem",height:"2.5rem"}} src="./Menu.png" alt="error" />
 </Box>
 </Box>
    </Box>

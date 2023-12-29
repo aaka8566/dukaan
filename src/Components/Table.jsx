@@ -24,8 +24,8 @@ const cellstyle={
 }
 export default function BasicTable() {
   return (
-    <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 650 }} aria-label="simple table">
+    <TableContainer >
+      <Table sx={{ minWidth: 650,border:"none" }} aria-label="simple table">
         <TableHead sx={{width:"100%",border:"0px solid red"}}>
           <TableRow sx={{width:"100%",borderRadius:"0.25rem",backgroundColor:"#F2F2F2"}}>
             <TableCell sx={{width:"20%",fontSize:"0.875rem",fontWeight:"500",lineHeight:"1.25rem",color:"#4D4D4D",fontFamily: "Galano Grotesque"}} align="left">Order ID</TableCell>
@@ -39,9 +39,9 @@ export default function BasicTable() {
           {rows.map((row) => (
             <TableRow
               key={row.name}
-              sx={{ '&:last-child td, &:last-child th': { border: 0 } ,color:"green"}}
+              sx={{ '&:last-child td, &:last-child th': { border: 0 }}}
             >
-              <TableCell component="th" scope="row" sx={{fontSize:"0.875rem",fontStyle:"normal",fontWeight:"500",lineHeight:"1.25rem",color:"blue",fontFamily: "Galano Grotesque"}}>
+              <TableCell  scope="row" sx={{fontSize:"0.875rem",fontStyle:"normal",fontWeight:"500",lineHeight:"1.25rem",color:"blue",fontFamily: "Galano Grotesque"}}>
               {row.name}
               </TableCell>
               <TableCell sx={cellstyle} align="left">
