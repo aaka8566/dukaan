@@ -7,7 +7,7 @@ import Orders from './Orders'
 
 const Home = () => {
   return (
-    <Box sx={{display:"flex",width:"100%",backgroundColor:"#FAFAFA",border:"0px solid red"}}>
+    <Box sx={{display:"flex",width:"100%",backgroundColor:"#FAFAFA",border:"0px solid red",margin:"0px",padding:"0px"}}>
 <Box sx={{width:"16%"}}><Sidebar/></Box>
 <Box sx={{width:"84%"}}>
     <Box ><Navbar/></Box>

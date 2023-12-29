@@ -20,7 +20,7 @@ const rows = [
   createData('#281206', "Successful", 131634495747, "12 Jul 2023, 03:00 PM", 1125.00),
 ];
 const cellstyle={
-    width:"20%",fontSize:"0.875rem",fontWeight:"500",lineHeight:"1.25rem",color:"#4D4D4D",fontFamily: "Galano Grotesque"
+    width:"20%",fontSize:"0.875rem",fontWeight:"500",lineHeight:"1.25rem",color:"#4D4D4D",fontFamily: "Galano Grotesque,sans-serif"
 }
 export default function BasicTable() {
   return (
@@ -28,24 +28,24 @@ export default function BasicTable() {
       <Table sx={{ minWidth: 650,border:"none" }} aria-label="simple table">
         <TableHead sx={{width:"100%",border:"0px solid red"}}>
           <TableRow sx={{width:"100%",borderRadius:"0.25rem",backgroundColor:"#F2F2F2"}}>
-            <TableCell sx={{width:"20%",fontSize:"0.875rem",fontWeight:"500",lineHeight:"1.25rem",color:"#4D4D4D",fontFamily: "Galano Grotesque"}} align="left">Order ID</TableCell>
-            <TableCell sx={{width:"20%",fontSize:"0.875rem",fontWeight:"500",lineHeight:"1.25rem",color:"#4D4D4D",fontFamily: "Galano Grotesque"}} align="left">Status</TableCell>
-            <TableCell sx={{width:"20%",fontSize:"0.875rem",fontWeight:"500",lineHeight:"1.25rem",color:"#4D4D4D",fontFamily: "Galano Grotesque"}} align="left">Transaction ID</TableCell>
-            <TableCell sx={{width:"20%",fontSize:"0.875rem",fontWeight:"500",lineHeight:"1.25rem",color:"#4D4D4D",fontFamily: "Galano Grotesque"}} align="left">Refund Date</TableCell>
-            <TableCell sx={{width:"20%",fontSize:"0.875rem",fontWeight:"500",lineHeight:"1.25rem",color:"#4D4D4D",border:"0px solid red",fontFamily: "Galano Grotesque"}} align="right">Order Amount</TableCell>
+            <TableCell sx={{width:"20%",fontSize:"0.875rem",fontWeight:"500",lineHeight:"1.25rem",color:"#4D4D4D",fontFamily: "Galano Grotesque,sans-serif"}} align="left">Order ID</TableCell>
+            <TableCell sx={{width:"20%",fontSize:"0.875rem",fontWeight:"500",lineHeight:"1.25rem",color:"#4D4D4D",fontFamily: "Galano Grotesque,sans-serif"}} align="left">Status</TableCell>
+            <TableCell sx={{width:"20%",fontSize:"0.875rem",fontWeight:"500",lineHeight:"1.25rem",color:"#4D4D4D",fontFamily: "Galano Grotesque,sans-serif"}} align="left">Transaction ID</TableCell>
+            <TableCell sx={{width:"20%",fontSize:"0.875rem",fontWeight:"500",lineHeight:"1.25rem",color:"#4D4D4D",fontFamily: "Galano Grotesque,sans-serif"}} align="left">Refund Date</TableCell>
+            <TableCell sx={{width:"20%",fontSize:"0.875rem",fontWeight:"500",lineHeight:"1.25rem",color:"#4D4D4D",border:"0px solid red",fontFamily: "Galano Grotesque,sans-serif"}} align="right">Order Amount</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
-          {rows.map((row) => (
+          {rows.map((row,i) => (
             <TableRow
-              key={row.name}
+              key={i}
               sx={{ '&:last-child td, &:last-child th': { border: 0 }}}
             >
-              <TableCell  scope="row" sx={{fontSize:"0.875rem",fontStyle:"normal",fontWeight:"500",lineHeight:"1.25rem",color:"blue",fontFamily: "Galano Grotesque"}}>
+              <TableCell  scope="row" sx={{fontSize:"0.875rem",fontStyle:"normal",fontWeight:"500",lineHeight:"1.25rem",color:"blue",fontFamily: "Galano Grotesque,sans-serif"}}>
               {row.name}
               </TableCell>
               <TableCell sx={cellstyle} align="left">
-               <Box sx={{display:"flex",alignItems:"center",justifyContent:"flex-start",gap:"0.38rem",fontFamily: "Inter"}}>
+               <Box sx={{display:"flex",alignItems:"center",justifyContent:"flex-start",gap:"0.38rem",fontFamily: "Inter,sans-serif"}}>
                {row.calories=="Successful"?<img src='./greencircle.png' alt='error'/>:<img src='./greycircle.png' alt='error'/>}{row.calories}
                </Box>
                </TableCell>

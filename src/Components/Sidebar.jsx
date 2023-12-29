@@ -18,8 +18,8 @@ const Sidebar = () => {
         <Box sx={{border:"0px solid green",display:"grid",gridTemplateColumns:"25% 50% 15%",alignItems:"center",columnGap:"0.78rem"}}>
 <Box><img style={{width:"2.475rem" ,height:"2.475rem"}} src="./Image.png" alt="error" /></Box>
 <Box>
-<Typography sx={{fontSize:"0.9375rem",fontWeight:"500",lineHeight:"1.375rem",color:"white",fontFamily:"Inter"}}>Nishyan</Typography>
-        <Typography sx={{fontSize:"0.81rem",fontWeight:"400",lineHeight:"1rem",textDecoration:"underline",color:"white",fontFamily: "Galano Grotesque"}}>Visit Store</Typography>
+<Typography sx={{fontSize:"0.9375rem",fontWeight:"500",lineHeight:"1.375rem",color:"white",fontFamily:"Inter,sans-serif"}}>Nishyan</Typography>
+        <Typography sx={{fontSize:"0.81rem",fontWeight:"400",lineHeight:"1rem",textDecoration:"underline",color:"white",fontFamily: "Galano Grotesque,sans-serif"}}>Visit store</Typography>
 </Box>
 <Box >
     <img src="./cd.png" alt="error" />

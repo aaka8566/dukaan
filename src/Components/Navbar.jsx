@@ -159,11 +159,11 @@ export default function Navbar() {
    <Box sx={{backgroundColor:"#FFF",display:"grid",gridTemplateColumns:"repeat(3,1fr)",padding:"0.75rem 2rem 0.75rem 2rem"}}>  
 <Box sx={{display:"flex",gap:"1rem",alignItems:"center"}}>
 <Box>
-    <Typography sx={{fontSize:"1.25rem",fontWeight:"500",lineHeight:"1.75rem",fontFamily: "Galano Grotesque"}}>Payouts</Typography>
+    <Typography sx={{fontSize:"1.25rem",fontWeight:"500",lineHeight:"1.75rem",fontFamily: "Galano Grotesque,sans-serif"}}>Payouts</Typography>
 </Box>
 <Box sx={{display:"flex",alignItems:"center",gap:"0.38rem"}}>
     <img src="./Helpb.png" alt="error" />
-    <Typography sx={{fontSize:"0.75rem",fontWeight:"400",lineHeight:"1rem",fontFamily: "Galano Grotesque"}}>How it works</Typography>
+    <Typography sx={{fontSize:"0.75rem",fontWeight:"400",lineHeight:"1rem",fontFamily: "Galano Grotesque,sans-serif"}}>How it works</Typography>
 </Box>
 <Box></Box>
 </Box>
@@ -174,7 +174,7 @@ export default function Navbar() {
         id="filled-hidden-label-normal"
        placeholder='Search , features , tutorials etc .'
      size='small'
-     disableunderline={true}
+    //  disableunderline={true}
      sx={{
         "& .MuiInputLabel-root": {color: 'green'},//styles the label
         "& .MuiOutlinedInput-root": {
